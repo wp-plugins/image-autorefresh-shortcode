@@ -33,7 +33,6 @@ Or specify a different alignment (`left`, `right`, `center` or `none`)
 
     [image-autorefresh src="image-url" align="center"]
 
-
 The shortcode
 
     [image-autorefresh
@@ -60,7 +59,7 @@ will generate the following code inside your post:
 	         id="image_autorefresh_timb8XZCWL"
 	         data-refresh="120"
 	         style="width: 640px;">
-	    <p class="wp-caption-text">A view from Troms&oslash; university</p>
+	    <p class="wp-caption-text">A view from Tromsø; university</p>
 	</div>
 
 Which will automatically refresh the live view from Troms&oslash; every 120 seconds
@@ -71,8 +70,8 @@ Which will automatically refresh the live view from Troms&oslash; every 120 seco
 The shortcode allows for multiple images on one page with different refresh rates.
 
 == Installation ==
-1. Unpack \"wp_image_autorefresh.zip\" to the \"/wp-content/plugins/\" directory.
-2. Activate the plugin through the \"Plugins\" menu in WordPress.
+1. Unpack `wp_image_autorefresh.zip` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the "Plugins" menu in WordPress.
 3. Place shortcode  in your post.
 
 
