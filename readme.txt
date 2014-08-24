@@ -10,9 +10,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Small WordPress shortcode plugin for refreshing images on a regular interval
 
 == Description ==
-More info at [the GitHub repository](https://github.com/klasske/wp_image_autorefresh)
-
-# Image autorefresh shortcode
 
 Image autorefresh shortcode is a small shortcode plugin for [WordPress](http://wordpress.org) that allows images in your post that reload on a regular interval
 
@@ -36,7 +33,6 @@ Or specify a different alignment (`left`, `right`, `center` or `none`)
 
     [image-autorefresh src="image-url" align="center"]
 
-## Examples
 
 The shortcode
 
