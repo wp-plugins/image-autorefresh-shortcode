@@ -3,13 +3,16 @@ Contributors: kvu022
 Tags: shortcode, refresh, autorefresh, image, reload, jquery, interval
 Requires at least: 2.6
 Tested up to: 3.9.2
-Stable tag: 1.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Small WordPress shortcode plugin for refreshing images on a regular interval
+Small WordPress shortcode plugin created specifically for reloading images for site.uit.no/spaceweather
 
 == Description ==
+More info at [the GitHub repository](https://github.com/klasske/wp_image_autorefresh)
+
+# Image autorefresh shortcode
 
 Image autorefresh shortcode is a small shortcode plugin for [WordPress](http://wordpress.org) that allows images in your post that reload on a regular interval
 
@@ -32,6 +35,21 @@ Add a caption
 Or specify a different alignment (`left`, `right`, `center` or `none`)
 
     [image-autorefresh src="image-url" align="center"]
+
+    
+Add width and height in pixels   
+
+    [image-autorefresh src="image-url" width=320 height=240]
+    
+Add classes to the image
+
+    [image-autorefresh src="image-url" class="your_custom_class"]
+    
+Add a custom query string to the image    
+
+    [image-autorefresh src="image-url" query_string="usr=test_user&password=some_password"]
+
+## Examples
 
 The shortcode
 
@@ -59,7 +77,7 @@ will generate the following code inside your post:
 	         id="image_autorefresh_timb8XZCWL"
 	         data-refresh="120"
 	         style="width: 640px;">
-	    <p class="wp-caption-text">A view from Tromsø; university</p>
+	    <p class="wp-caption-text">A view from Troms&oslash; university</p>
 	</div>
 
 Which will automatically refresh the live view from Troms&oslash; every 120 seconds
@@ -70,8 +88,8 @@ Which will automatically refresh the live view from Troms&oslash; every 120 seco
 The shortcode allows for multiple images on one page with different refresh rates.
 
 == Installation ==
-1. Unpack `wp_image_autorefresh.zip` to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the "Plugins" menu in WordPress.
+1. Unpack \"wp_image_autorefresh.zip\" to the \"/wp-content/plugins/\" directory.
+2. Activate the plugin through the \"Plugins\" menu in WordPress.
 3. Place shortcode  in your post.
 
 
@@ -82,6 +100,12 @@ The shortcode allows for multiple images on one page with different refresh rate
 Yes, you can sue the shortcode multiple times and set different refresh intervals for each.
 
 == Changelog ==
+
+= 1.3 =
+* Added the parameter `query_string` to add any query parameters necessary to load the image
+
+= 1.2 =
+* Added height, width and class parameters.
 
 = 1.1 =
 * Images are only reloaded when they are in a window which currently has focus.
