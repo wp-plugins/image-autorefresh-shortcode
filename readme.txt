@@ -23,7 +23,7 @@ After installing and activating of the plugin in your WordPress page, you can ad
 
     [image-autorefresh src="image-url"]
 
-This will create a left aligned`<div>` containing your image. It will refresh every 60 seconds.
+This will create a left aligned `<div>` containing your image. It will refresh every 60 seconds.
 
 You can specify a different refresh time
 
@@ -36,7 +36,6 @@ Add a caption
 Or specify a different alignment (`left`, `right`, `center` or `none`)
 
     [image-autorefresh src="image-url" align="center"]
-
     
 Add width and height in pixels   
 
