@@ -2,8 +2,8 @@
 Contributors: kvu022
 Tags: shortcode, refresh, autorefresh, image, reload, jquery, interval
 Requires at least: 2.6
-Tested up to: 3.9.2
-Stable tag: 1.1
+Tested up to: 4.0
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,15 @@ Add a caption
 Or specify a different alignment (`left`, `right`, `center` or `none`)
 
     [image-autorefresh src="image-url" align="center"]
+    
+Add width and height in pixels   
 
+    [image-autorefresh src="image-url" width=320 height=240]
+    
+Add classes to the image
+
+    [image-autorefresh src="image-url" class="your_custom_class"]
+    
 The shortcode
 
     [image-autorefresh
@@ -82,6 +90,9 @@ The shortcode allows for multiple images on one page with different refresh rate
 Yes, you can sue the shortcode multiple times and set different refresh intervals for each.
 
 == Changelog ==
+
+= 1.2 =
+* Added height, width and class parameters.
 
 = 1.1 =
 * Images are only reloaded when they are in a window which currently has focus.
