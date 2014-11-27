@@ -2,7 +2,7 @@
 Contributors: kvu022
 Tags: shortcode, refresh, autorefresh, image, reload, jquery, interval, timelapse
 Requires at least: 2.6
-Tested up to: 3.9.2
+Tested up to: 4.0
 Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -15,7 +15,7 @@ More info at [the GitHub repository](https://github.com/klasske/wp_image_autoref
 
 # Image autorefresh shortcode
 
-Image autorefresh shortcode is a small shortcode plugin for [WordPress](http://wordpress.org) that allows images in your post that reload on a regular interval
+Image autorefresh shortcode is a small shortcode plugin for [WordPress](http://wordpress.org) that allows images in your post that reload on a regular interval.
 
 ## How to use the plugin
 
