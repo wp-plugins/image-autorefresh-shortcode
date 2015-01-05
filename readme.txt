@@ -2,7 +2,7 @@
 Contributors: kvu022
 Tags: shortcode, refresh, autorefresh, image, reload, jquery, interval, timelapse
 Requires at least: 2.6
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
