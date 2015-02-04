@@ -3,12 +3,11 @@
 Plugin Name: Image autorefresh shortcode
 Plugin URI: https://github.com/klasske/wp_image_autorefresh
 Description: Ligthweight shortcode plugin created specifically for reloading images that are refreshed on a regular basis (for example from live camera feeds)
-Version: 1.3
+Version: 1.4
 Author: Klaske van Vuurden
 Author URI: https://github.com/klasske/
 Copyright: Klaske van Vuurden
 */
-
 
 defined('ABSPATH') or die("Don't access directly!");
 
@@ -21,6 +20,7 @@ function image_autorefresh_shortcode($atts){
 			'align' => 'left',
 			'width' => 0,
 			'height' => 0,
+			'alt' => '',
 			'class' => '',
 			'query_string' => ''	
 	), $atts );
@@ -51,6 +51,7 @@ function image_autorefresh_shortcode($atts){
 	<img src="<?php echo $a['src']; echo ($a['query_string'] != '') ? '?' . $a['query_string'] : ''; ?>" 
 		 data-src="<?php echo $a['src']; ?>"
 	     data-query="<?php echo $a['query_string']; ?>"
+	     alt="<?php echo $a['alt']; ?>"	
 	     class="image_autorefresh<?php 
 	     echo ($a['width'] > 0) ? ' image_autorefresh_changed_width' : ''; 
 	     echo ($a['class'] != '') ? ' ' . $a['class'] : ''; 

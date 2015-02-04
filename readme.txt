@@ -101,6 +101,9 @@ Yes, you can sue the shortcode multiple times and set different refresh interval
 
 == Changelog ==
 
+= 1.4 =
+* Added the 'alt' attribute to comply with WCAG
+
 = 1.3 =
 * Added the parameter `query_string` to add any query parameters necessary to load the image
 
