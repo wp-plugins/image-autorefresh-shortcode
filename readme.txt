@@ -7,17 +7,16 @@ Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Ligthweight shortcode plugin created specifically for reloading images that are refreshed on a regular basis (for example from live camera feeds)
-
+Lightweight shortcode plugin created specifically for reloading images that are refreshed on a regular basis (for example from live camera feeds)
 
 == Description ==
 More info at [the GitHub repository](https://github.com/klasske/wp_image_autorefresh)
 
-# Image autorefresh shortcode
+**Image autorefresh shortcode**
 
 Image autorefresh shortcode is a small shortcode plugin for [WordPress](http://wordpress.org) that allows images in your post that reload on a regular interval
 
-## How to use the plugin
+*How to use the plugin*
 
 After installing and activating of the plugin in your WordPress page, you can add the following shortcode anywhere in your post or page text:
 
@@ -49,7 +48,7 @@ Add a custom query string to the image
 
     [image-autorefresh src="image-url" query_string="usr=test_user&password=some_password"]
 
-## Examples
+*Examples*
 
 The shortcode
 
@@ -83,7 +82,7 @@ will generate the following code inside your post:
 Which will automatically refresh the live view from Troms&oslash; every 120 seconds
 
 
-## Multiple images
+*Multiple images*
 
 The shortcode allows for multiple images on one page with different refresh rates.
 
